@@ -1,0 +1,16 @@
+*{
+    margin:0;
+}
+svg{
+   height:20px;
+   width: 20px;
+}
+.dashboard{
+    background-color:#1e293b;
+}
+.head{
+    background-color: #64748b;
+}
+.body{
+    background-color: #94a3b8;
+}

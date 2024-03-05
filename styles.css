@@ -12,6 +12,21 @@ html,body{
    margin-right:20px;
    
 }
+.projects svg{
+    fill: #64748b;
+ 
+    height:50px;
+    width: 50px;
+    
+}
+.box-icons{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: end;
+    justify-items: end;
+    margin-top:50px;
+}
+
 svg{
     height:20px;
     width: 20px;
@@ -106,6 +121,7 @@ button{
     grid-template-rows: 1fr 1fr;
     gap:20px;
     padding-right: 10px;
+    padding-bottom:20px;
 }
 .trending{
     display:grid;
@@ -123,8 +139,7 @@ button{
    align-items: center;
 }
 .projects h2{
-   
-  margin-left:10px;
+ 
 }
 
 .announcements{
@@ -132,9 +147,16 @@ button{
     grid-column:2/3 ;
     display:grid;
     align-items: stretch;
+   
 }
 
-.proj{
+.projects{
+    padding-left:10px;
+    display: grid;
+    grid-template-rows: 1fr 13fr;
+}
+.grid-container{
+    gap:20px;
 display:grid;
 grid-template-columns: repeat(2,1fr);
 grid-template-rows: repeat(3,1fr);
@@ -193,4 +215,7 @@ padding:20px;
 }
 .tflow>div{
     margin-left: 10px;
+}
+h2{
+    color: #e2e8f0;
 }
